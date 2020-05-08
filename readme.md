@@ -13,4 +13,5 @@ This repo tracks my progress on the Leetcode challenges. These solutions are not
 0746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)  | [C++](./min-cost-climbing-stairs/source.cpp) | Easy | Dynamic Programming |||
 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [C++](./maximum-product-subarray/source.cpp) | Medium | Dynamic Programming |||
 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [C++](./coin-change/source.cpp) | Medium | Dynamic Programming |||
+0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](./counting-bits/source.cpp) | Medium | Dynamic Programming |||
 
