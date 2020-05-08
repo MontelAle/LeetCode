@@ -23,7 +23,7 @@ vector<int> cb() {
 
 int main() {
 
-  cout << cb();
+  cb();
 
   return 0;
 
