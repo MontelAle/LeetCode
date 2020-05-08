@@ -10,5 +10,6 @@ This repo tracks my progress on the Leetcode challenges. These solutions are not
 |  #  | Title           |  Solution       | Difficulty   |  Topic |
 |-----|---------------- | --------------- | -------------| --------|
 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](./climbing-stairs) | Easy | Dynamic Programming |||
-0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [C++](./maximum-product-subarray/) | Medium | Dynamic Programming |||
 0746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)  | [C++](./min-cost-climbing-stairs/) | Easy | Dynamic Programming |||
+0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [C++](./maximum-product-subarray/) | Medium | Dynamic Programming |||
+
