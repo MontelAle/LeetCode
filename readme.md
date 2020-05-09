@@ -6,9 +6,9 @@
 
 This repository tracks my progress on Leetcode.
 
-These solutions are absolutely not to be taken as the best possible. These solutions are the best I came up with.
+These solutions are absolutely not to be taken as the best possible. These solutions are the ones I came up with.
 
-I have created this repository for my personal future reference. Don't get upset if I'm not using the best algorithms or coding practices, that's not the goal.
+I have created this repository for personal future reference. Don't get upset if I'm not using the best algorithms or coding practices, that's not the goal.
 
 All of the solutions reported are exclusively for the free tier questions.
 
