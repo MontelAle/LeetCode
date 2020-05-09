@@ -3,45 +3,47 @@
 
 using namespace std;
 
-int mps() {
+class Solution {
+public:
+  int maxProduct(vector<int> &nums) {
+    if (nums.size() == 1)
+      return nums[0];
 
-  vector<int> nums = {-2, 3, -4};
+    // 0 is max so far, 1 is min so far
 
-  if (nums.size() == 1)
-    return nums[0];
+    int dp[2];
 
-  // 0 is max so far, 1 is min so far
+    memset(dp, 0, sizeof(dp));
 
-  int dp[2];
+    // set base case
 
-  memset(dp, 0, sizeof(dp));
+    dp[0] = nums[0];
+    dp[1] = nums[0];
 
-  // set base case
+    int ans = dp[0];
 
-  dp[0] = nums[0];
-  dp[1] = nums[0];
+    for (int i = 1; i < nums.size(); ++i) {
+      int mx = nums[i] * dp[0];
+      int mn = nums[i] * dp[1];
 
-  int ans = dp[0];
+      dp[0] = max({nums[i], mx, mn});
+      dp[1] = min({nums[i], mx, mn});
 
-  for(int i = 1; i < nums.size(); ++i) {
-    int mx = nums[i] * dp[0];
-    int mn = nums[i] * dp[1];
+      if (dp[0] > ans)
+        ans = dp[0];
+    }
 
-    dp[0] = max({nums[i], mx , mn});
-    dp[1] = min({nums[i], mx, mn});
-
-    if(dp[0] > ans)
-      ans = dp[0];
+    return ans;
   }
-
-  return ans;
-
-}
+};
 
 int main() {
 
-  cout << mps();
+  Solution solution;
 
-  return 0;
+  vector<int> input = {2, 3, -2, 4};
 
+  assert(solution.maxProduct(input) == 6);
+
+      return 0;
 }

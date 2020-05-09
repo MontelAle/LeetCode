@@ -3,43 +3,39 @@
 
 using namespace std;
 
-int msc() {
-
-    vector<int> cost = {0, 0, 0, 1};
+class Solution {
+public:
+  int minCostClimbingStairs(vector<int> &cost) {
 
     cost.push_back(0);
 
     vector<int> dp(cost.size());
 
     // Setting base cases (first and second step in dp)
-    for(int i = 0; i <= 1; ++i)
-        dp[i] = cost[i];
+    for (int i = 0; i <= 1; ++i)
+      dp[i] = cost[i];
 
-    for(int i = 2; i < dp.size(); ++i) {
-        int m = INT_MAX;
+    for (int i = 2; i < dp.size(); ++i)
+    {
+      int m = INT_MAX;
 
-        for (int j = i - 2; j < i; ++j)
-            if (dp[j] < m)
-                m = dp[j];
+      for (int j = i - 2; j < i; ++j)
+        if (dp[j] < m)
+          m = dp[j];
 
-        dp[i] = m + cost[i];
+      dp[i] = m + cost[i];
     }
 
-    // for (auto x : dp)
-    //     cout << x << " ";
-
-    // cout << dp[cost.size() - 1];
-
     return dp[cost.size() - 1];
-
-
-
-}
+  }
+};
 
 int main() {
+  Solution solution;
 
-    msc();
+  vector<int> input = {10, 15, 20};
 
-    return 0;
+  assert(solution.minCostClimbingStairs(input) == 15);
 
+  return 0;
 }

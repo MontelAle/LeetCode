@@ -1,37 +1,41 @@
+// https://leetcode.com/problems/coin-change/
 #include <bits/stdc++.h>
 
 using namespace std;
+class Solution {
+public:
+  int coinChange(vector<int> &coins, int amount) {
+    int dp[amount + 1];
 
-int cg() {
+    memset(dp, -1, sizeof(dp));
 
-  vector<int> coins = {1, 2, 5};
-  int amount = 11;
+    dp[0] = 0;
 
-  int dp[amount + 1];
+    for (int i = 1; i < amount + 1; ++i) {
 
-  memset(dp, -1, sizeof(dp));
+      int m = INT_MAX;
 
-  dp[0] = 0;
+      for (auto coin : coins)
+        if (i - coin >= 0)
+          if (dp[i - coin] != -1)
+            if (m > dp[i - coin] + 1)
+              m = dp[i - coin] + 1;
 
-  for(int i = 1; i < amount + 1; ++i) {
+      if (m != INT_MAX)
+        dp[i] = m;
+    }
 
-    int m = INT_MAX;
-
-    for(auto coin : coins)
-      if(i - coin >= 0)
-        if(dp[i-coin] != -1)
-          if(m > dp[i - coin] + 1)
-            m = dp[i - coin] + 1;
-
-    if(m != INT_MAX)
-      dp[i] = m;
+    return dp[amount];
   }
-
-  return dp[amount];
-}
+};
 
 int main() {
-  cout << cg();
+
+  Solution solution;
+
+  vector<int> coins = {1, 2, 5};
+
+  assert(solution.coinChange(coins, 11) == 3);
 
   return 0;
 }
