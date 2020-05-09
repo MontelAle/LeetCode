@@ -4,10 +4,16 @@
 ![Update](https://img.shields.io/badge/update-daily-green.svg)&nbsp;
 ![Progress](https://img.shields.io/badge/progress-6-ff69b4.svg)&nbsp;
 
-This repo tracks my progress on the Leetcode challenges. These solutions are not the best possible. They are the ones I came up with, that I want to keep track of for future reference. All of the reported solutions are for the free tier questions.
+This repository tracks my progress on Leetcode.
+
+These solutions are absolutely not to be taken as the best possible. These solutions are the best I came up with.
+
+I have created this repository for my personal future reference. Don't get upset if I'm not using the best algorithms or coding practices, that's not the goal.
+
+All of the solutions reported are exclusively for the free tier questions.
 
 
-## Dynamic Programming Problems
+## Dynamic Programming
 |  #  | Title |  Solution | Difficulty | Time Complexity | Space Complexity |
 |-----| ----- | --------- | ---------- | --------------- | --------------- |
 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](./dynamic-programming/climbing-stairs/source.cpp) | Easy | O(n) | O(n) |||
