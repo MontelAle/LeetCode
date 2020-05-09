@@ -2,6 +2,7 @@
 
 ![Language](https://img.shields.io/badge/language-C++11-orange.svg)&nbsp;
 ![Update](https://img.shields.io/badge/update-daily-green.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-6-ff69b4.svg)&nbsp;
 
 This repo tracks my progress on the Leetcode challenges. These solutions are not the best possible. They are the ones I came up with, that I want to keep track of for future reference. All of the reported solutions are for the free tier questions.
 
