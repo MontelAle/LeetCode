@@ -14,5 +14,5 @@ This repo tracks my progress on the Leetcode challenges. These solutions are not
 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [C++](./maximum-product-subarray/source.cpp) | Medium | O(n) | O(1) |||
 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [C++](./coin-change/source.cpp) | Medium | O(m * n) | O(n) |||
 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](./counting-bits/source.cpp) | Medium | O(n) | O(n) |||
-0931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [C++](./minimum-falling-path-sum/source.cpp) | Medium | O(n^2) | O(n^2) |||
+0931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [C++](./minimum-falling-path-sum/source.cpp) | Medium | O(n^2) | O(n) |||
 
