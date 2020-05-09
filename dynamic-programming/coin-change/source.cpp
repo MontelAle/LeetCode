@@ -33,9 +33,9 @@ int main() {
 
   Solution solution;
 
-  vector<int> coins = {1, 2, 5};
+  vector<int> input = {1, 2, 5};
 
-  assert(solution.coinChange(coins, 11) == 3);
+  assert(solution.coinChange(input, 11) == 3);
 
   return 0;
 }
