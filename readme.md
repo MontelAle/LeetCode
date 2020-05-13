@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/language-C++11-orange.svg)&nbsp;
 ![Update](https://img.shields.io/badge/update-daily-green.svg)&nbsp;
-![Progress](https://img.shields.io/badge/progress-6-ff69b4.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-7-ff69b4.svg)&nbsp;
 
 This repository tracks my progress on Leetcode.
 
@@ -22,4 +22,5 @@ All of the solutions reported are exclusively for the free tier questions.
 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [C++](./dynamic-programming/coin-change/source.cpp) | Medium | O(m * n) | O(n) |||
 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](./dynamic-programming/counting-bits/source.cpp) | Medium | O(n) | O(n) |||
 0931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [C++](./dynamic-programming/minimum-falling-path-sum/source.cpp) | Medium | O(n^2) | O(n) |||
+0983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [C++](./dynamic-programming/minimum-cost-for-tickets/source.cpp) | Medium | O(n) | O(1) |||
 
