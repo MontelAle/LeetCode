@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/language-C++11-orange.svg)&nbsp;
 ![Update](https://img.shields.io/badge/update-daily-green.svg)&nbsp;
-![Progress](https://img.shields.io/badge/progress-7-ff69b4.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-8-ff69b4.svg)&nbsp;
 
 This repository tracks my progress on Leetcode.
 
@@ -16,6 +16,7 @@ All of the solutions reported are exclusively for the free tier questions.
 ## Dynamic Programming
 |  #  | Title |  Solution | Difficulty | Time Complexity | Space Complexity |
 |-----| ----- | --------- | ---------- | --------------- | --------------- |
+0064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [C++](./dynamic-programming/minimum-path-sum/source.cpp) | Medium | O(n) | O(n) |||
 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](./dynamic-programming/climbing-stairs/source.cpp) | Easy | O(n) | O(n) |||
 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [C++](./dynamic-programming/maximum-product-subarray/source.cpp) | Medium | O(n) | O(1) |||
 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [C++](./dynamic-programming/coin-change/source.cpp) | Medium | O(m * n) | O(n) |||
