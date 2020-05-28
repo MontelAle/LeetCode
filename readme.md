@@ -16,6 +16,7 @@ All of the solutions reported are exclusively for the free tier questions.
 ## Dynamic Programming
 |  #  | Title |  Solution | Difficulty | Time Complexity | Space Complexity |
 |-----| ----- | --------- | ---------- | --------------- | --------------- |
+0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](./dynamic-programming/unique-paths/source.cpp) | Medium | O(n * m) | O(n * m) |||
 0064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [C++](./dynamic-programming/minimum-path-sum/source.cpp) | Medium | O(n) | O(n) |||
 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](./dynamic-programming/climbing-stairs/source.cpp) | Easy | O(n) | O(n) |||
 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [C++](./dynamic-programming/maximum-product-subarray/source.cpp) | Medium | O(n) | O(1) |||
